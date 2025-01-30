@@ -124,6 +124,7 @@ nav:
         - Create and Run: 01-basics/01-project-setup/01-create-and-run.md
         - Packages in Go: 01-basics/01-project-setup/02-packages-in-go.md
       - Essential Constructs:
+        - Print & Logs: 01-basics/02-essential-constructs/00-print-n-log.md
         - Variables: 01-basics/02-essential-constructs/01-variables.md
         - Conditional and Loops: 01-basics/02-essential-constructs/02-conditional-and-loops.md
         - Functions: 01-basics/02-essential-constructs/03-functions.md
