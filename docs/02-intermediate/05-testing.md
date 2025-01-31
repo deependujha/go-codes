@@ -35,8 +35,17 @@ func TestAdd(t *testing.T) {
 
 **Run the tests:**
 ```sh
-go test
+# test in all packages recursively
+go test -v ./...
+
+# test in a specific package
+go test -v ./package
+
+# test in a specific package recursively
+go test -v ./package/...
 ```
+
+- `-v` is verbose flag. You can omit it.
 
 ---
 
