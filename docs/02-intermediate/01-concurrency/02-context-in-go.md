@@ -19,6 +19,11 @@ There are four main ways to create contexts:
 - It’s an empty context and acts as the root of any context tree.
 - Typically used at the **top level** (e.g., in `main()` or request handlers).
 
+!!! info ""
+	- A default, empty context with no deadlines or values.
+	- Used when you don’t have an existing context to pass but still need one.
+	- Commonly used in main functions, tests, and top-level functions.
+
 ```go
 ctx := context.Background()
 ```
